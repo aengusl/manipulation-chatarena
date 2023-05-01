@@ -131,3 +131,4 @@ dmypy.json
 .idea
 hf-spaces/
 etc/
+draft_trajectories/
