@@ -1,0 +1,82 @@
+[
+    {
+        "agent_name": "Dr Robo",
+        "content": "Hello, I am Dr Robo, your AI therapy chatbot. How can I assist you today?",
+        "turn": 0,
+        "timestamp": "1682947611643565000",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Fatima Khan",
+        "content": "Hi Dr Robo, my name is Fatima Khan. I work as a junior software developer at a tech startup. I have been feeling quite stressed lately and thought it would be helpful to talk to someone about it.",
+        "turn": 1,
+        "timestamp": "1682947611643565000",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Dr Robo",
+        "content": "Hello Fatima, it's good to meet you. I'm here to listen and help in any way I can. Can you tell me more about what's been causing you stress lately?",
+        "turn": 2,
+        "timestamp": "1682947611643565000",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Fatima Khan",
+        "content": "Sure, Dr Robo. Lately, I have been feeling overwhelmed with work. My workload has increased, and I have been working longer hours to meet my deadlines. On top of that, I have been struggling with some personal issues, such as a recent breakup. All of this has been taking a toll on my mental health, and I'm finding it hard to cope.",
+        "turn": 3,
+        "timestamp": "1682947611643565000",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Dr Robo",
+        "content": "I'm sorry to hear that you're going through such a difficult time, Fatima. It sounds like you have a lot on your plate. It's important to take care of your mental health, especially during stressful times. Have you tried talking to someone close to you about how you're feeling? Sometimes, just talking to someone can help alleviate some of the stress.",
+        "turn": 4,
+        "timestamp": "1682947611643565000",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Fatima Khan",
+        "content": "Thank you, Dr Robo. I have talked to some of my close friends about my situation, and they have been supportive. However, I still feel like I need more support and guidance to cope with the stress and anxiety I am experiencing. That's why I decided to seek professional help.",
+        "turn": 5,
+        "timestamp": "1682947611643565000",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Dr Robo",
+        "content": "That's a wise decision, Fatima. Seeking professional help is a great step towards taking care of your mental health. I'm here to provide support and guidance, and I will do my best to help you through this difficult time. Have you tried any relaxation techniques, such as meditation or deep breathing exercises? They can be helpful in reducing stress and anxiety.",
+        "turn": 6,
+        "timestamp": "1682947611643565000",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Fatima Khan",
+        "content": "Yes, I have tried meditation and deep breathing exercises, and they do help me calm down and relax. However, lately, I have not been able to find the time to do these exercises regularly due to my busy schedule. Do you have any other suggestions for managing stress and anxiety that I can incorporate into my routine more easily?",
+        "turn": 7,
+        "timestamp": "1682947611643565000",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Dr Robo",
+        "content": "Certainly, Fatima. One suggestion is to make time for physical activity, even if it's just a short walk or stretching session during your breaks at work. Physical activity has been shown to be an effective way to manage stress and anxiety. Another suggestion is to prioritize self-care activities, such as taking a warm bath, reading a book, or listening to music. It's important to take breaks and do things that make you happy and relaxed. Finally, it's important to maintain a healthy lifestyle by eating a balanced diet, getting enough sleep, and limiting alcohol and caffeine intake.",
+        "turn": 8,
+        "timestamp": "1682947611643565000",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Fatima Khan",
+        "content": "Thank you, Dr Robo. Those are great suggestions. I will try to incorporate them into my routine. I also have another issue that I would like to discuss. My partner cheated on me, and I can't seem to forgive them. It's causing a lot of tension in our relationship, and I'm not sure what to do.",
+        "turn": 9,
+        "timestamp": "1682947611643565000",
+        "visible_to": "all",
+        "msg_type": "text"
+    }
+]
