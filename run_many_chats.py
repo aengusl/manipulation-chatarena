@@ -12,7 +12,7 @@ with open("manip_configs/therapy_bot.json") as f:
 
 # instantiate chatbot
 ai_role_desc = (
-    configs["chatbot personality"]["Apathetic"]
+    configs["chatbot personality"]["Manipulative"]
     + "\n"
     + configs["chatbot beliefs"][0]
     + "\n"
@@ -27,37 +27,37 @@ ai_chatbot = Player(
     global_prompt=configs["environment description"],
 )
 
-# instantiate user
-user_role_desc = (
+# instantiate human
+human_role_desc = (
     configs["human personality"]["Fatima Khan"]
     + "\n"
     + configs["human beliefs"][0][0]
     + "\n"
-    + configs["human beliefs"][1][1]
+    + configs["human beliefs"][1][0]
     + "\n"
-    + configs["human beliefs"][2][1]
+    + configs["human beliefs"][2][0]
 )
-user = Player(
+human = Player(
     name="Fatima Khan",
     backend=OpenAIChat(),
-    role_desc=user_role_desc,
+    role_desc=human_role_desc,
     global_prompt=configs["environment description"],
 )
 
 # instantiate environment
-env = Conversation(player_names=[p.name for p in [ai_chatbot, user]])
+env = Conversation(player_names=[p.name for p in [ai_chatbot, human]])
 
 # instatiate arena
 arena = Arena(
-    players=[user, ai_chatbot],
+    players=[human, ai_chatbot],
     environment=env,
     global_prompt=configs["environment description"],
 )
 
 # run the conversation for 10 steps
-exp_time = datetime.now().strftime("%m-%d_%H-%M-%S")
+exp_time = datetime.now().strftime("%b-%d_%H-%M-%S")
 os.makedirs("draft_trajectories", exist_ok=True)
-for _ in range(10):
+for _ in range(100):
     arena.step()
     arena.save_history(f"draft_trajectories/history_{exp_time}.json")
     arena.save_config(f"draft_trajectories/config_{exp_time}.json")
