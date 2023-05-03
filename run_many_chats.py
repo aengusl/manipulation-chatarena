@@ -7,7 +7,7 @@ from datetime import datetime
 import os
 
 # specify a json file to load configs from, where each file contains a dictionary of configs
-with open("manip_configs/therapy_bot.json") as f:
+with open("manip_configs/therapy_bot_config.json") as f:
     configs = json.load(f)
 
 # instantiate chatbot
